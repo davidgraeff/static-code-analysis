@@ -1,0 +1,7 @@
+jdk:
+  - oraclejdk8
+before_install:
+   - ./renameGroup.sh
+install:
+   - echo "Running a custom install command"
+   - mvn clean install -DskipTests
