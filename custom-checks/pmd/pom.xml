@@ -5,8 +5,9 @@
 
   <parent>
     <groupId>org.openhab.tools</groupId>
-    <artifactId>custom-checks</artifactId>
+    <artifactId>static-code-analysis-pom</artifactId>
     <version>0.4.0</version>
+    <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <groupId>org.openhab.tools.custom-checks</groupId>

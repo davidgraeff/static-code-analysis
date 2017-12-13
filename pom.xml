@@ -166,7 +166,9 @@
   </dependencies>
   
   <modules>
-    <module>custom-checks</module>
+    <module>custom-checks/checkstyle</module>
+    <module>custom-checks/pmd</module>
+    <module>custom-checks/findbugs</module>
     <module>sat-plugin</module>
   </modules>
   
